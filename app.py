@@ -3,6 +3,8 @@ import pandas as pd
 import ta
 import platform
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
+from pathlib import path
 from datetime import timedelta
 import yfinance as yf
 import pmdarima as pm
