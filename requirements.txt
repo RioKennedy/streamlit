@@ -3,7 +3,7 @@ pandas
 numpy
 ta
 yfinance
-matplotlib
+matplotlib.pyplot
 statsmodels
 scikit-learn
 pmdarima
