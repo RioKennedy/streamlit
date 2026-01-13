@@ -1,12 +1,10 @@
 streamlit
 pandas
-ta
-platform
+numpy
 matplotlib
-datetime
+ta
 yfinance
 pmdarima
 statsmodels
-numpy
 requests
-bs4
+beautifulsoup4
