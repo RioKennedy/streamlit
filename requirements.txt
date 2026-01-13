@@ -8,4 +8,3 @@ pmdarima
 statsmodels
 requests
 beautifulsoup4
-platform
