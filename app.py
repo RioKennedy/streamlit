@@ -16,17 +16,16 @@ import stock_eng_to_cn
 
 
 
-# ------------------------
-# 判斷平台，設定中文字型
-if platform.system() == "Windows":
-    CHINESE_FONT = 'Microsoft JhengHei'
-elif platform.system() == "Darwin":  # Mac
-    CHINESE_FONT = 'Heiti TC'  # 或 'PingFang TC'
-else:
-    CHINESE_FONT = 'DejaVu Sans'  # Linux / fallback
+# ===============================
+# 設定中文字型（Streamlit Cloud / GitHub OK）
+# ===============================
+FONT_PATH = Path(__file__).parent / "fonts" / "NotoSansTC-Regular.ttf"
 
-plt.rcParams['font.sans-serif'] = [CHINESE_FONT]
-plt.rcParams['axes.unicode_minus'] = False
+fm.fontManager.addfont(str(FONT_PATH))
+plt.rcParams["font.family"] = fm.FontProperties(
+    fname=str(FONT_PATH)
+).get_name()
+plt.rcParams["axes.unicode_minus"] = False
 
 
 # ===============================
