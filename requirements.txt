@@ -7,7 +7,6 @@ matplotlib
 statsmodels
 scikit-learn
 pmdarima
-platform
 datetime
 request
 bs4
