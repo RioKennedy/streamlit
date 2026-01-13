@@ -7,3 +7,4 @@ matplotlib.pyplot
 statsmodels
 scikit-learn
 pmdarima
+platform
