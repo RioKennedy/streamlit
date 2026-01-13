@@ -7,3 +7,8 @@ matplotlib
 statsmodels
 scikit-learn
 pmdarima
+platform
+datetime
+request
+bs4
+stock_eng_to_cn
